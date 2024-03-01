@@ -1,0 +1,32 @@
+Chris Anderson persoanlly uploaded the Design Cosntraints and Data Flow Diagrams for this CS250 Project. 
+All images are in the main pdf upload file.
+
+
+3.7 Design Constraints
+Specify design constrains imposed by other standards, company policies, hardware limitation, etc. that will impact this software project.
+
+
+Some common design constraints that the app must follow the Payment Card Industry Security Standard, comply with data protection laws, 
+adhere to company specific coding standards, and integrate with company databases. The software system must also fit UX standards such 
+as screen resolution adaptation and adhere to UX design principles. If the app parties with any outside resources there should be 
+reservations for the third-party advisors. Pay close attention to budget constraints along to ensure overspending does not occur. Lastly, 
+network limitations can factor to poor performance. An engineer must have a thorough understanding about the 
+
+
+
+4.3 Data Flow Diagrams (DFD)
+
+
+
+
+
+The data flow diagram for Encore Ticketing Service depicts the center of most major data transfers. 
+It all starts with the customer. Their information should be protected through each stage. The customer order processing,
+shipping and contact are the three priorities he or she will face first. Each step holds a larger group of sub-steps that 
+are purposely hidden from the user. This is to not overload the user with information. The processing of the order must
+connect the transaction point which later branches into bank transparency and final purchases. The order processing also must
+touch the users database which helps the app remember and collect the customer's product information securely. The shipping aspect 
+of the transaction must work alongside a third party shipping company.  Here the shipping company passes along the user's location 
+and purchase history to award the correct product to the user. Then the company must update both their product and the 
+app's information. The last of the three sections is the communication center. Here a speedy update of the users data and any 
+confirmation or follow up messages should be sent to the customer to ensure they are aware of each step of the process explained above. 
