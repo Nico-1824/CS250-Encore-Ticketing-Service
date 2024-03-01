@@ -1,0 +1,12 @@
+Ian Carscadden
+
+I personally worked on creating the Class UML diagram as well as creating the State Transition Diagram for a individual ticket. Below I will put the deescriptions for both of these diagrams that cna be found in the main copy of the SRS.
+
+State Transition Diagram:
+
+The State Transition Diagram of the ticket describes the certain states that the ticket undergoes when a user is in the process of purchasing, canceling, or refunding a ticket. We start out with the ticket being available to anyone for purchase. When a user selects the ticket, the ticket’s state is now reserved, meaning the ticket is reserved currently by whoever has selected it and it is not currently available to another user. After the ticket is reserved its state will either change to purchased or canceled, depending on the user's course of action. If the user decides to back out of the purchase the ticket’s state will be changed to canceled, then back to available. If the user decides to purchase the ticket, after the user's payment details are confirmed the money is received, the ticket’s state will be changed to purchased, then once the confirmation is sent to the user via email, the ticket’s state will be changed to issued. If the user chooses to refund the ticket, its state will be changed to refunded, then back to available.
+
+UML Class Diagram:
+
+The UML Class Diagram for the Encore Ticketing Service provides a structured overview of the system's architecture, highlighting the relationships and interactions between its core components: Theater, Movie, User, Ticket, and PaymentDetails. In this diagram, Theaters contain multiple Movies and offer various food options, alongside managing seat availability. Movies are characterized by attributes such as name, ratings, reviews, and a unique ID, facilitating user engagement and selection processes. Users, differentiated by account types, can purchase Tickets, request refunds, or change seats, indicating a dynamic interaction with the system based on their needs. Tickets serve as a bridge between Users, Movies, and Theaters, encapsulating details like showtime and seating. PaymentDetails are crucial for transaction validation, securing the financial interactions within the service. This diagram effectively maps out the system's functionality, from movie selection to the final ticket purchase, underlining the service's aim to provide a seamless ticketing experience.
+
